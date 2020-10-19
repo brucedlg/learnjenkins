@@ -8,6 +8,7 @@ pipeline {
                 sh '''
                 echo "multiline example"
                 ls -l
+                pwd
                 '''
             }
         }
